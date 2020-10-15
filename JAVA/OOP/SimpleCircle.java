@@ -1,6 +1,6 @@
 import java.util.Arrays;
 import java.util.Scanner;
-public class simplecircle {
+public class SimpleCircle {
  
    double radius;
    simplecircle() {

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class soup{
+public class namesList{
    public static void main(String[]args){
    
       Scanner sc = new Scanner(System.in);
@@ -28,10 +28,7 @@ public class soup{
             userInputController = false;
             userInputEmpty = true;
          }//end of determining if user wants to terminate input
-       
-      
-       
-       
+                     
          if (userInputEmpty){
          //lol
          }else{
