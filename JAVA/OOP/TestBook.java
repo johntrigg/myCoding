@@ -17,10 +17,7 @@ public class TestBook {
       BookChapter c1 = new BookChapter("Beginnings", 20);
       BookChapter c2 = new BookChapter("The Plot Thickens",5);
       BookChapter c3 = new BookChapter("Never Saw It Coming",3);
-      
-     
-      
-    
+        
       // add the chapters
       b.addChapter(c1);
       b.addChapter(c2);
@@ -34,16 +31,17 @@ public class TestBook {
        AAAA.addChapter(blah1);
        AAAA.addChapter(blah2);
        AAAA.addChapter(blah3);
-       
-      
       
       // make sure we are able to display the TOC
       System.out.println("Checking the table of contents function");
-      b.displayTableOfContents();
+      System.out.println(b.tableOfContents());
       System.out.println("Checking getTotalPages function");
       System.out.println(b.getTotalPages());//checking pagecount function
       System.out.println("Doing the same for the custom test");
-      AAAA.displayTableOfContents();
+      System.out.println(AAAA.tableOfContents());
+      
+      System.out.println(AAAA.get);
+      
       System.out.println(AAAA.getTotalPages());
    }// end main
 }// end class

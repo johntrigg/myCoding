@@ -42,11 +42,7 @@ public class ToDo{
       }
    
       return str;
-   }  /* 
-ask questions about this
-ask questions about date
-and object arrays
-*/
+   }
    public void setDone(boolean flag){
       isDone = flag;
    
@@ -64,6 +60,14 @@ and object arrays
 
 }//end of todo class
 class ToDoList{
+private ArrayList<ToDo> toDoList = new ArrayList<ToDo>();
+
+public ToDoList(){
+
+}
+
+
+/*
 
    private ToDo[] tasks;
    private int capacity;
@@ -98,4 +102,5 @@ class ToDoList{
          if(t!=null) str += t.toString() + "\n";
       return str;
    }
+   */
 }//end of todolist class
